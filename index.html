@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jukebox - Jay Hu</title>
+	<script src="javascript/jquery-2.2.3.js"></script>	
+	<script src="javascript/javascript.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="box">
+	<img id = "jukebox" src="images/jukebox.gif">
+	<audio id="music" controls="controls">
+		<source src='music/ModernDayBabylon-Illusion.mp3' type="audio/mpeg" />
+	</audio>
+		<div id="player">
+			<div id="right">
+				<input type="text" id="url">
+				<button id="uButton" class="upload"></button>	
+			</div>			
+			<div id="left">
+				<button id="bButton" class="previous"></button>
+				<button id="pButton" class="play"></button>
+				<button id="fButton" class="forward"></button>		
+				<center><button id="sButton" class="stop"></button></center>
+			</div>
+		</div>
+</div>
+</body>
+</html>

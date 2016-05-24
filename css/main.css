@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black; 
+}
+
+audio {
+  position: absolute;
+  z-index: -1000;
+  right: 0;
+}
+
+#left {
+  background-color: #a80307;
+  height: 125px;
+  width: 195px;
+  position: absolute;
+  right: 42%;
+  bottom: 6%;
+}
+
+#right {
+  background-color: #a80307;
+  height: 90px;
+  width: 185px;
+  position: absolute;
+  right: 21%;
+  bottom: 6%;
+  padding-top: 35px;
+  padding-left: 10px;
+}
+
+#jukebox {
+  right: 0;
+  max-width: 1050px;
+  position: fixed;
+}
+
+#pButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-position: center;
+}
+
+#sButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-position: center;
+}
+
+#fButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-position: center;
+}
+
+#bButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-position: center;
+}
+
+#uButton {
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.play {
+  background: url("../images/play.svg") no-repeat; }
+
+.pause {
+  background: url("../images/pause.png") no-repeat; }
+
+.stop {
+  background: url("../images/stop.png") no-repeat; }
+
+.forward {
+  background: url("../images/forward.png") no-repeat; }
+
+.previous {
+  background: url("../images/previous.png") no-repeat; }
+
+.upload {
+  background: url("../images/upload.png") no-repeat; }
